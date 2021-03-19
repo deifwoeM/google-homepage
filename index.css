@@ -1,0 +1,102 @@
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2em;
+    background-color: rebeccapurple;
+}
+
+#dropdown{
+    width: 2em;
+    height: 100%;
+    vertical-align: middle;
+    border-radius: 50%;
+    padding: 0.3em;
+}
+#test:hover {
+    background-color: rgb(78, 78, 78);
+}
+#test {
+    border-radius: 50%; 
+    transition: 0.1s;
+}
+#profile {
+    border-radius: 50%; 
+    width: 2.4em;
+    vertical-align: middle;
+}
+#profile-border {
+    border-radius: 50%;
+    padding: 0.2em;
+    transition: 0.1s;
+}
+#profile-border:hover {
+    background-color: rgb(78, 78, 78);
+    
+}
+#nav>*{
+    margin: 0.8em 0.6em;
+}
+.ue1>* {
+    margin-right: 1em;
+}
+.ue1 > a {
+    text-decoration: none;
+    color: black;
+}
+.ue1 > a:hover {
+    text-decoration: underline;
+}
+#google-logo {
+    display: block;
+    margin: 8em auto 1.5em;
+    width: 15%;
+    height: auto;
+}
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#input-form {
+    margin: 1.5em auto;
+    width: 30%;
+    padding: 0.5em;
+    border-radius: 2em;
+    outline: 0;
+    border: 1px solid rgb(211, 211, 211);
+    display: flex;
+    justify-content: flex-start;
+}
+#magnifier {
+    margin-left: 0.7em;
+    width: 1.5em;
+    vertical-align: middle;
+    opacity: 50%;
+}
+#input-form > input {
+    outline: none;
+    border: none;
+    margin-left: 1em;
+}
+/*css reset*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
